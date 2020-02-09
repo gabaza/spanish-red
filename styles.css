@@ -6,7 +6,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: ECEBF3;
+    color: #ECEBF3;
+}
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
 }
 /* mobile version first */
 main {
@@ -16,6 +21,10 @@ main {
     border-radius: 5px;
     margin-top: 5%;
     box-shadow: 2px 2px 41px 5px rgba(0,0,0,0.75);
+}
+header {
+    display: flex; 
+    justify-content: space-between;
 }
 @media screen and (min-width: 600px) {
     main {
