@@ -1,7 +1,24 @@
 body {
-    background-color: black;
+    background-color: #0c120c;
     background-image: url("spanishred.png");
     background-repeat: no-repeat;
     background-size: cover;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* mobile version first */
+main {
+    height: 700px;
+    width: 85%;
+    background-color: black;
+    border-radius: 5px;
+    margin-top: 5%;
+    box-shadow: 2px 2px 41px 5px rgba(0,0,0,0.75);
+}
+@media screen and (min-width: 600px) {
+    main {
+        height: 900px;
+        width: 80%;
+    }
 }
