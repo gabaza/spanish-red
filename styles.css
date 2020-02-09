@@ -6,6 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: ECEBF3;
 }
 /* mobile version first */
 main {
